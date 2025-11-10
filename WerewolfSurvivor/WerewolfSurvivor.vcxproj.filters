@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Resource Files\engine">
+      <UniqueIdentifier>{847f421b-6656-446b-bfc5-0aaa8c566dcd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource Files\game">
+      <UniqueIdentifier>{89628603-35c4-4a70-9e0b-7b13d82b4efe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{2c0a3454-64c1-4fd2-a6f4-a83975289d8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\game">
+      <UniqueIdentifier>{546cd055-fbde-4be8-a018-a027bb972310}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WerewolfSurvivor.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GamesEngineeringBase.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.h">
+      <Filter>Resource Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Mathf.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2D.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="hero.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.h">
+      <Filter>Resource Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="TileMap.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="npc_projectile.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="hero_projectile.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+    <ClCompile Include="prop.cpp">
+      <Filter>Source Files\game</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Behavior.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Container.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="List.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Mathf.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="TileMap.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2D.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Resource Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="hero.h">
+      <Filter>Resource Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="GameData.h">
+      <Filter>Resource Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="hero_projectile.h">
+      <Filter>Resource Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="npc_projectile.h">
+      <Filter>Resource Files\game</Filter>
+    </ClInclude>
+    <ClInclude Include="prop.h">
+      <Filter>Resource Files\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
